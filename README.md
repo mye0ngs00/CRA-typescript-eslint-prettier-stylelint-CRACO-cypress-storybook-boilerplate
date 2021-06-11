@@ -1,46 +1,28 @@
-# Getting Started with Create React App
+자주 사용하는 기술 스택을 정리하여 보일러 플레이트를 만들었다. 백엔드는 TDD가 중요하지만, 프론트엔드는 CDD BDD 위주로 가는 게 다방면에서 좋다고 생각하기 때문에 이렇게만 사용한다.
+### spec
+1. CRA(Creat-React-App)
+- SPA 구조와 생산성   
+2. Typescript
+  - 안정적인 개발   
+3. eslint
+- 정적 분석과 코딩 컨벤션   
+4. prettier
+- 코드 스타일과 코딩 컨벤션   
+5. stylelint
+- 스타일 시트의 정적 분석과 코딩 컨벤션   
+6. CRACO(+alias)
+- eject없이 webpack, babel 설정
+- path의 depth가 깊어짐에 따라 발생하는 가독성 향상   
+7. cypress
+- e2e scenario test   
+8. storybook
+- 컴포넌트 설계 및 디자인 시스템  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### how to use this
+`$ git clone https://github.com/mye0ngs00/CRA-typescript-eslint-prettier-stylelint-CRACO-cypress-storybook-boilerplate.git`
 
-## Available Scripts
+`$ cd CRA-typescript-eslint-prettier-stylelint-CRACO-cypress-storybook-boilerplate.git`
 
-In the project directory, you can run:
+`$ yarn install`
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+추가로 jest, jest-dom은 craco설정을 따로 해줘야 한다.
